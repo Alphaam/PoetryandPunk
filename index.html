@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Future Punk</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body onload="on()">
+		<video autoplay muted loop id="myVideo">
+  <source src="bg2.mov" type="video/mov">
+</video>
+		<audio controls autoplay >
+  		<source src="openingsong.ogg" type="audio/ogg">
+  		<source src="openingsong.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+</audio>
+	
+
+
+	<div id="overlay" onclick="off()">
+ 		 <div id="text"><p>Future Punk and Poetry</p></div>
+
+	</div>
+
+	<div style="padding:20px">
+
+
+  		<a href="today.html" class="container" ><img src="osborne/cover.jpeg" width=980px height=830px alt="" id="pic1" /><div class="overlay">TODAY </div><div class="Artist">Art by: Osborne Macharia</div></a>
+		<a href="youth.html" class="container" onclick="show2()"><img src="Taj/cover.gif"  alt="" id="pic2"/><div class="overlay">YOUTH</div><div class="Artist"> Art by: Taj Francis</div></a>
+		<a href="NewYork.html" class="container" onclick="show3()"><img src="Manzel/cover.jpeg" width=980px height=830px alt=""id="pic3" /><div class="overlay">NEW YORK</div><div class="Artist"> Art by: Manzel Bowman</div></a>
+		<a href="love.html" class="container" onclick="show4()"><img src="khan/10.jpeg" width=720px height=780px alt=""id="pic4" /><div class="overlay">LOVE </div><div class="Artist">Art by: Khan Nova</div></a>
+  		<!-- <button onclick="on()">Turn on overlay effect</button> -->
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
